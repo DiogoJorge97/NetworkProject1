@@ -1,0 +1,66 @@
+Apr 29 16:13:17.988 HYPERVISOR: Release 0.2.20-amd64/Linux (tag 2019022012)
+Apr 29 16:13:17.988 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53735.
+Apr 29 16:13:17.997 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 16:13:17.997 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Exercices/FirstProjectV1/project-files/dynamips 
+Apr 29 16:13:17.998 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Exercices/FirstProjectV1/project-files/dynamips
+Apr 29 16:13:17.998 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Apr 29 16:13:18.200 HYPERVISOR: exec_cmd: nio create_udp udp-a14ec633-4584-488a-aa68-f52ae14ad3df 10001 127.0.0.1 10000 
+Apr 29 16:13:18.200 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 
+Apr 29 16:13:18.208 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 29 16:13:18.239 HYPERVISOR: exec_cmd: nio create_udp udp-17af5345-7efa-419e-a1d2-7815a565d5ec 10003 127.0.0.1 10002 
+Apr 29 16:13:18.240 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 
+Apr 29 16:13:18.248 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 29 16:13:18.280 HYPERVISOR: exec_cmd: nio create_udp udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 10005 127.0.0.1 10004 
+Apr 29 16:13:18.281 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 
+Apr 29 16:13:18.289 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 29 16:13:18.719 HYPERVISOR: exec_cmd: nio create_udp udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 10013 127.0.0.1 10012 
+Apr 29 16:13:18.719 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 
+Apr 29 16:13:18.732 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 29 16:14:50.030 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 29 16:14:50.034 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 29 16:14:50.064 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 29 16:14:50.065 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 29 16:15:00.201 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 29 16:15:00.205 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 29 16:15:00.236 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 29 16:15:00.237 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 29 16:15:01.967 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 29 16:15:01.974 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 29 16:15:02.001 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 29 16:15:02.002 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 29 16:19:54.188 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 29 16:19:54.193 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 29 16:19:54.220 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 29 16:19:54.221 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 29 16:39:17.200 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 29 16:39:17.206 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 29 16:39:17.238 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 29 16:39:17.239 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 29 17:18:18.972 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 29 17:18:18.977 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 29 17:18:19.013 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 29 17:18:19.014 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 30 14:55:33.709 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 30 14:55:33.716 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 30 14:55:33.759 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 30 14:55:33.760 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 30 15:02:37.812 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 30 15:02:37.819 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 30 15:02:37.877 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 30 15:02:37.878 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 30 15:09:38.661 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 30 15:09:38.666 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 30 15:09:38.734 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 30 15:09:38.734 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 30 15:10:38.601 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 30 15:10:38.608 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 30 15:10:38.681 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 30 15:10:38.682 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 30 15:47:50.935 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-c0a46ec4-1309-47ef-8dfa-4036adddd5e6 1 
+Apr 30 15:47:50.936 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-a14ec633-4584-488a-aa68-f52ae14ad3df 1 
+Apr 30 15:47:50.936 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-17af5345-7efa-419e-a1d2-7815a565d5ec 1 
+Apr 30 15:47:50.937 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-cf604af5-ff05-4c07-8716-82cbbc86ad71 1 
+Apr 30 15:50:13.167 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Apr 30 15:50:13.233 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 30 15:50:13.574 HYPERVISOR: Stopped.
+Apr 30 15:50:13.574 GENERAL: reset done.
