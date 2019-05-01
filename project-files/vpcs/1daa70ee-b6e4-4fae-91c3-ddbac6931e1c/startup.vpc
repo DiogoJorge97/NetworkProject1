@@ -1,4 +1,4 @@
-# This the configuration for PC-11
+# This the configuration for 20-ISP1
 #
 # Uncomment the following line to enable DHCP
 # dhcp
@@ -6,4 +6,4 @@
 # ip 192.168.1.1 255.0.0.0
 #
 
-set pcname PC-11
+set pcname 20-ISP1

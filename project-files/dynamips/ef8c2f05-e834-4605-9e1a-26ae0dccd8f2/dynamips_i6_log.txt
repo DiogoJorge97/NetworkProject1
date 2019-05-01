@@ -1,0 +1,33 @@
+May 01 17:27:18.169 HYPERVISOR: Release 0.2.20-amd64/Linux (tag 2019022012)
+May 01 17:27:18.169 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 33455.
+May 01 17:27:18.180 HYPERVISOR: exec_cmd: hypervisor version 
+May 01 17:27:18.181 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Exercices/Proj1/NetworkProject1/project-files/dynamips 
+May 01 17:27:18.181 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Exercices/Proj1/NetworkProject1/project-files/dynamips
+May 01 17:27:18.182 HYPERVISOR: exec_cmd: ethsw create 1stFloor 
+May 01 17:27:20.219 HYPERVISOR: exec_cmd: nio create_udp udp-4f01e0f5-ccb3-4cef-827a-183716086ecb 10032 127.0.0.1 10033 
+May 01 17:27:20.220 HYPERVISOR: exec_cmd: ethsw add_nio 1stFloor udp-4f01e0f5-ccb3-4cef-827a-183716086ecb 
+May 01 17:27:20.224 HYPERVISOR: exec_cmd: ethsw set_access_port 1stFloor udp-4f01e0f5-ccb3-4cef-827a-183716086ecb 1 
+May 01 17:27:20.302 HYPERVISOR: exec_cmd: nio create_udp udp-4120bb2a-23ac-40f7-b79e-54ab682b0dc5 10034 127.0.0.1 10035 
+May 01 17:27:20.303 HYPERVISOR: exec_cmd: ethsw add_nio 1stFloor udp-4120bb2a-23ac-40f7-b79e-54ab682b0dc5 
+May 01 17:27:20.304 HYPERVISOR: exec_cmd: ethsw set_access_port 1stFloor udp-4120bb2a-23ac-40f7-b79e-54ab682b0dc5 1 
+May 01 17:27:20.376 HYPERVISOR: exec_cmd: nio create_udp udp-0930c4f6-9973-4aef-aa13-60081f67da6e 10036 127.0.0.1 10037 
+May 01 17:27:20.377 HYPERVISOR: exec_cmd: ethsw add_nio 1stFloor udp-0930c4f6-9973-4aef-aa13-60081f67da6e 
+May 01 17:27:20.385 HYPERVISOR: exec_cmd: ethsw set_access_port 1stFloor udp-0930c4f6-9973-4aef-aa13-60081f67da6e 1 
+May 01 17:27:20.456 HYPERVISOR: exec_cmd: nio create_udp udp-f6d3aa5a-9e14-436c-a48e-7e10013b7d27 10038 127.0.0.1 10039 
+May 01 17:27:20.456 HYPERVISOR: exec_cmd: ethsw add_nio 1stFloor udp-f6d3aa5a-9e14-436c-a48e-7e10013b7d27 
+May 01 17:27:20.465 HYPERVISOR: exec_cmd: ethsw set_access_port 1stFloor udp-f6d3aa5a-9e14-436c-a48e-7e10013b7d27 1 
+May 01 17:27:20.536 HYPERVISOR: exec_cmd: nio create_udp udp-264c2ec0-b7be-467d-8658-75cdc649e6f1 10040 127.0.0.1 10041 
+May 01 17:27:20.537 HYPERVISOR: exec_cmd: ethsw add_nio 1stFloor udp-264c2ec0-b7be-467d-8658-75cdc649e6f1 
+May 01 17:27:20.546 HYPERVISOR: exec_cmd: ethsw set_access_port 1stFloor udp-264c2ec0-b7be-467d-8658-75cdc649e6f1 1 
+May 01 17:27:21.434 HYPERVISOR: exec_cmd: nio create_udp udp-71761f41-3afe-461a-8f24-d07d8e323e8d 10057 127.0.0.1 10056 
+May 01 17:27:21.435 HYPERVISOR: exec_cmd: ethsw add_nio 1stFloor udp-71761f41-3afe-461a-8f24-d07d8e323e8d 
+May 01 17:27:21.452 HYPERVISOR: exec_cmd: ethsw set_access_port 1stFloor udp-71761f41-3afe-461a-8f24-d07d8e323e8d 1 
+May 01 17:27:22.047 HYPERVISOR: exec_cmd: nio create_udp udp-b4885db4-b0ef-4dae-a291-1de67540034c 10073 127.0.0.1 10072 
+May 01 17:27:22.048 HYPERVISOR: exec_cmd: ethsw add_nio 1stFloor udp-b4885db4-b0ef-4dae-a291-1de67540034c 
+May 01 17:27:22.056 HYPERVISOR: exec_cmd: ethsw set_access_port 1stFloor udp-b4885db4-b0ef-4dae-a291-1de67540034c 1 
+May 01 17:28:46.204 HYPERVISOR: exec_cmd: ethsw remove_nio 1stFloor udp-264c2ec0-b7be-467d-8658-75cdc649e6f1 
+May 01 17:28:46.212 HYPERVISOR: exec_cmd: nio delete udp-264c2ec0-b7be-467d-8658-75cdc649e6f1 
+May 01 17:43:30.539 HYPERVISOR: exec_cmd: ethsw delete 1stFloor 
+May 01 17:43:30.654 HYPERVISOR: exec_cmd: hypervisor stop 
+May 01 17:43:30.781 HYPERVISOR: Stopped.
+May 01 17:43:30.781 GENERAL: reset done.

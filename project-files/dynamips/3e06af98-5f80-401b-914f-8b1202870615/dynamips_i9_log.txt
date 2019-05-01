@@ -1,0 +1,22 @@
+May 01 17:27:18.246 HYPERVISOR: Release 0.2.20-amd64/Linux (tag 2019022012)
+May 01 17:27:18.246 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51047.
+May 01 17:27:18.257 HYPERVISOR: exec_cmd: hypervisor version 
+May 01 17:27:18.258 HYPERVISOR: exec_cmd: hypervisor working_dir /media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Exercices/Proj1/NetworkProject1/project-files/dynamips 
+May 01 17:27:18.259 GENERAL: working_dir=/media/diogojorge/SharedDisk/UA/Ano4/AGR/Practical/Exercices/Proj1/NetworkProject1/project-files/dynamips
+May 01 17:27:18.259 HYPERVISOR: exec_cmd: ethsw create 3rdFloor 
+May 01 17:27:21.104 HYPERVISOR: exec_cmd: nio create_udp udp-1b92a214-eabd-4b5c-a9fb-8b020b664c84 10054 127.0.0.1 10055 
+May 01 17:27:21.104 HYPERVISOR: exec_cmd: ethsw add_nio 3rdFloor udp-1b92a214-eabd-4b5c-a9fb-8b020b664c84 
+May 01 17:27:21.122 HYPERVISOR: exec_cmd: ethsw set_access_port 3rdFloor udp-1b92a214-eabd-4b5c-a9fb-8b020b664c84 1 
+May 01 17:27:21.721 HYPERVISOR: exec_cmd: nio create_udp udp-352bbd44-07b9-4cf4-92e8-1b369c2090e3 10069 127.0.0.1 10068 
+May 01 17:27:21.722 HYPERVISOR: exec_cmd: ethsw add_nio 3rdFloor udp-352bbd44-07b9-4cf4-92e8-1b369c2090e3 
+May 01 17:27:21.728 HYPERVISOR: exec_cmd: ethsw set_access_port 3rdFloor udp-352bbd44-07b9-4cf4-92e8-1b369c2090e3 1 
+May 01 17:27:22.294 HYPERVISOR: exec_cmd: nio create_udp udp-f39c5ebb-8333-4c6e-90d1-84a1e5c65267 10085 127.0.0.1 10084 
+May 01 17:27:22.295 HYPERVISOR: exec_cmd: ethsw add_nio 3rdFloor udp-f39c5ebb-8333-4c6e-90d1-84a1e5c65267 
+May 01 17:27:22.312 HYPERVISOR: exec_cmd: ethsw set_access_port 3rdFloor udp-f39c5ebb-8333-4c6e-90d1-84a1e5c65267 1 
+May 01 17:29:02.469 HYPERVISOR: exec_cmd: nio create_udp udp-bf6ac600-6cad-4467-aef2-2fcd76c0befb 10041 127.0.0.1 10040 
+May 01 17:29:02.469 HYPERVISOR: exec_cmd: ethsw add_nio 3rdFloor udp-bf6ac600-6cad-4467-aef2-2fcd76c0befb 
+May 01 17:29:02.485 HYPERVISOR: exec_cmd: ethsw set_access_port 3rdFloor udp-bf6ac600-6cad-4467-aef2-2fcd76c0befb 1 
+May 01 17:43:30.545 HYPERVISOR: exec_cmd: ethsw delete 3rdFloor 
+May 01 17:43:30.626 HYPERVISOR: exec_cmd: hypervisor stop 
+May 01 17:43:30.636 HYPERVISOR: Stopped.
+May 01 17:43:30.636 GENERAL: reset done.

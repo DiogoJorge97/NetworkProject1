@@ -1,9 +1,2 @@
-# This the configuration for PC-19
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
-set pcname PC-19
+ip 192.168.0.129 255.255.255.224 27
+ip 2002:a:a:3:1::1/80
