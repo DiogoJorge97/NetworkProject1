@@ -2262,7 +2262,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5040,
+                "console": 5036,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -2317,15 +2317,17 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet6",
                             "port_number": 6,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet7",
                             "port_number": 7,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         }
                     ]
@@ -2338,7 +2340,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5042,
+                "console": 5038,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -2393,15 +2395,17 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet6",
                             "port_number": 6,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet7",
                             "port_number": 7,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         }
                     ]
@@ -2414,7 +2418,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5043,
+                "console": 5040,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -2469,15 +2473,17 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet6",
                             "port_number": 6,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet7",
                             "port_number": 7,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         }
                     ]
@@ -2490,7 +2496,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5044,
+                "console": 5042,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -2545,15 +2551,17 @@
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet6",
                             "port_number": 6,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         },
                         {
+                            "ethertype": "",
                             "name": "Ethernet7",
                             "port_number": 7,
-                            "type": "access",
+                            "type": "dot1q",
                             "vlan": 1
                         }
                     ]
@@ -2826,7 +2834,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5051,
+                "console": 5043,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 32,
@@ -2977,7 +2985,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5025,
+                "console": 5054,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
@@ -3004,6 +3012,6 @@
     },
     "type": "topology",
     "variables": [],
-    "version": "2.1.14",
-    "zoom": 99
+    "version": "2.1.16",
+    "zoom": 50
 }
